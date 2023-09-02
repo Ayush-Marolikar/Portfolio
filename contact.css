@@ -1,0 +1,95 @@
+
+.contact__form{
+    background-color: #1E1E25 !important;
+    width:92%;
+    /* border-radius: 20px !important; */
+}
+.contact__form::after:hover{
+    background-color: #1E1E25 !important;
+}
+.contact_bord{
+border-radius: 50%;
+width: 6rem;
+height: 6rem;
+border: 8px solid  #107C6F  !important;
+padding: 3px 5px;
+
+}
+.contact_bord:hover{
+    border: 8px solid  #fff  !important;
+ 
+}
+.icon i{
+    margin-top: 1.5rem!important;
+    font-size: 2rem!important;
+}
+ /* .icon i:hover{
+  margin-top: 2rem!important;
+}  */
+/* .contact{
+    border: 1px solid red!important;
+} */
+@media(max-width:587px) {
+    .contact{
+       text-align:center!important
+    }
+    .contact_bord{
+       margin-left: 7.6rem !important;
+       /* display: block; */
+    }
+
+    @media(max-width:320px) {
+        .contact{
+           text-align:center!important
+        }
+        .contact_bord{
+           margin: auto !important;
+           display: block;
+        }
+    }
+
+    @media(max-width:487px) {
+        .contact{
+           text-align:center!important
+        }
+        .contact_bord{
+           margin: auto !important;
+           display: block;
+        }
+    }
+
+}
+
+
+@media(max-width:487px) {
+    .email{
+       text-align:center!important
+    }
+    
+}
+
+@media(max-width:587px) {
+    .email{
+       text-align:center!important
+    }
+    
+}
+@media(max-width:320px) {
+    .email{
+       text-align:center!important
+    }
+    
+}
+.contact__body:hover{
+    background-color: #107C6F !important;
+    /* border-radius: 10px; */
+}
+.btn1{
+    background-color: #0bceaf !important;
+    padding: 0.7rem!important;
+    border-radius: 6rem !important;
+    border: none !important;
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}

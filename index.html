@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <!-- <h1>Hello, world!</h1> -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark ">
+      <div class="container">
+        <a class="navbar-brand text-uppercase fs-3 fw-bolder logo" href="#"
+          >Ayush Portfolio</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white fw-bold m-2"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold m-2" href="#about_section"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold m-2" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold m-2" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold m-2" href="#Contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- first Section -->
+    <div class="back_img">
+      <div class="container content" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xl-6 section__1">
+            <span class="text-white col-sm-12 hero__hello">Hello I'm</span>
+            <h3 class="fw-bold text-white heading3 col-sm-12 d-block">Ayush Marolikar</h3>
+            <h5 class="fw-bold text-white heading5 col-sm-12 d-block">Software Developer</h5>
+            <div class="col-sm-12">
+              <i
+                class="fa fa-envelope text-white icon__hero"
+                aria-hidden="true"
+              ></i>
+              <a
+                href="mailto:"
+                class="text-decoration-none text-light m-3 fw-bolder"
+                >marolikarayush123@gmail.com</a
+              >
+            </div>
+            <div class="col-sm-12">
+              <i
+                class="fa fa-phone text-white icon__hero mt-2"
+                aria-hidden="true"
+              ></i>
+              <a
+                href="callto:"
+                class="text-decoration-none text-light m-3 fw-bolder"
+                >7841071118</a
+              >
+            </div>
+
+            <div>
+              <a
+                class="btn btn__ m-2 mt-3 fw-bolder text-white"
+                href="resume/Ayush Resume.pdf"
+                role="button"
+                >Resume</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="col-lg-6 col-md-6 col-sm-12 col-xl-6 d-flex justify-content-around align-items-center  "
+            data-aos="fade-up"
+          >
+            <img src="images/Photo.jpeg" class="logo__hero" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About section -->
+
+    <div class="container about_content" id="about_section" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xl-7">
+          <img src="images/ab-img.png" class="About_img" alt="" srcset="" />
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xl-5">
+          <h4 class="text-white fw-bold about_heading">About Me</h4>
+          <p class="text-white">
+            Hello, I’m a Ayush, web-developer based on India. I have rich
+            experience in web site design & building and customization. Also I
+            am good at
+          </p>
+          <div classs="row">
+            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6">
+              <button class="btn about_button text-white" type="submit">
+                HTML
+              </button>
+              <button class="btn about_button text-white" type="submit">
+                CSS
+              </button>
+              <button class="btn about_button text-white" type="submit">
+                Bootstrap
+              </button>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-md-6 mt-3">
+              <button class="btn about_button text-white" type="submit">
+                Javascript
+              </button>
+              <button class="btn about_button text-white" type="submit">
+                React
+              </button>
+              <button class="btn about_button text-white" type="submit">
+              SQL
+              </button>
+            </div>
+
+             <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <a
+                  class="btn resume_button text-white mt-3"
+                  href="resume/Ayush Resume.pdf"
+                  role="button"
+                  >Download Resume<i
+                    class="fa fa-download m-2"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          </div>
+    
+
+             <!-- Recent Project  -->
+
+                <h3 class=" text-white text-center mt-5 project_heading" id="projects">Projects</h3>
+             <div class="container"  data-aos="fade-up">
+              <div class="row">
+                <div class="col-lg-3 col-md-12 g-3">
+                  <div class="card project_card">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/5357145/pexels-photo-5357145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="12rem"> 
+                    <div class="card-body">
+                      <!-- <i class="fa fa-search card-text" aria-hidden="true"></i> -->
+                      <p class="card-text mt-4">Analog Clock</p>
+                      <a class="card-text text-decoration-none text-white" href="#" role="button" >ViewCode</a>
+                    </div>
+                </div>
+                </div>
+   <!-- second -->
+                <div class="col-lg-3 col-md-12 g-3">
+                  <div class="card project_card">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/5466806/pexels-photo-5466806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  width="12rem">
+                    <div class="card-body">
+                      <!-- <i class="fa fa-search card-text" aria-hidden="true"></i> -->
+                      <p class="card-text mt-4">Calculator</p>
+                      <a class="btn card-text text-decoration-none text-white" href="#"role="button" >ViewCode</a>
+                    </div>
+                </div>
+                </div>
+
+                   <!-- THIRD -->
+                   <div class="col-lg-3 col-md-12 g-3">
+                    <div class="card project_card">
+                      <img class="card-img-top" src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  width="12rem" >
+                      <div class="card-body">
+                        <!-- <i class="fa fa-search card-text" aria-hidden="true"></i> -->
+                        
+                        <p class="card-text mt-5">E-Commerce
+                          Website</p>
+                        <a class="btn card-text text-decoration-none text-white" href="#" role="button" >ViewCode</a>
+                      </div>
+                  </div>
+                  </div>
+
+                     <!-- fOURTH -->
+                <div class="col-lg-3 col-md-12 g-3">
+                  <div class="card project_card">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=600"  width="12rem" >
+                    <div class="card-body">
+                      <!-- <i class="fa fa-search card-text" aria-hidden="true"></i> -->
+                      <p class="card-text mt-5">Portfolio Website</p>
+                      <a class="btn card-text text-decoration-none text-white" href="#" role="button" >ViewCode</a>
+                    </div>
+                </div>
+                </div>
+              </div>
+          </div>
+    
+          <!-- SKILLS -->
+          <h3 class=" text-white text-center mt-5 mb-5 project_heading" id="skills">Technical Skills</h3>
+         <div class="container" data-aos="fade-up">
+         <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class=" d-flex justify-content-between">
+              <h5 class=" text-white fw-bolder mt-lg-2">Html</h5>
+              <p class=" text-white mt-lg-2">92%</p>
+            </div>
+            <div class="progress prog_skills">
+              <div class="progress-bar skills_technical html_skills" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="" aria-valuemax="100">
+              </div>
+            </div>
+            <div class=" d-flex justify-content-between">
+              <h5 class=" text-white fw-bolder mt-lg-2">CSS</h5>
+              <p class=" text-white mt-lg-2">85%</p>
+            </div>
+            <div class="progress">
+              <div class="progress-bar  skills_technical css_skills " role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class=" d-flex justify-content-between">
+              <h5 class=" text-white fw-bolder mt-lg-2">Bootstrap</h5>
+              <p class=" text-white mt-lg-2">90%</p>
+            </div>
+            <div class="progress">
+              <div class="progress-bar  skills_technical Bootstrap_skills" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class=" d-flex justify-content-between">
+              <h5 class=" text-white fw-bolder mt-lg-2">Javascript</h5>
+              <p class=" text-white mt-lg-2">75%</p>
+            </div>
+            <div class="progress">
+              <div class="progress-bar  skills_technical javascript__skills" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class=" d-flex justify-content-between">
+              <h5 class=" text-white fw-bolder mt-lg-2">React</h5>
+              <p class=" text-white mt-lg-2">70%</p>
+            </div>
+            <div class="progress">
+              <div class="progress-bar  skills_technical React__skills" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class=" d-flex justify-content-between">
+              <h5 class=" text-white fw-bolder mt-lg-2">Sql</h5>
+              <p class=" text-white mt-2">70%</p>
+            </div>
+            <div class="progress">
+              <div class="progress-bar  skills_technical SQL__skills" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+<!-- 
+   <div class="col-lg-6 col-md-6 col-sm-6" >
+
+    <div class=" d-flex justify-content-lg-around">
+      <div class="progress__skills text-white" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75%">
+      </div>
+      <div class="progress__skills float-sm-end" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+      </div>
+    </div>
+
+    <div class=" d-flex justify-content-lg-around justify-content-md-between justify-content-sm-around g-md-3 g-sm-3">
+      <div class="progress__skills" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> 
+  
+      </div>
+  
+      <div class="progress__skills" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+      </div>
+    </div>
+
+         </div> -->
+         </div>
+
+         <!-- Contact form -->
+         <h3 class=" text-white text-center mt-5 mb-5 project_heading" id="Contact">Contact Us</h3>
+          <div class="container" data-aos="fade-up">
+           <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xl-6">
+              <div class="card contact__form text-white">
+                <div class=" card-body contact__body">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xl-6" >
+                   <div class=" contact_bord icon contact text-center">
+                    <i class="fa fa-location-arrow contact" aria-hidden="true"></i>
+                   </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 text-white col-xl-6">
+                    <h3 class=" contact">Address</h3>
+                    <p class="contact">A wing,302</p>
+                    <p class="contact">VirarEast</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="card contact__form text-white mt-3">
+                <div class=" card-body contact__body">
+                <div class="row">
+                  <div class="col-lg-4 col-md-5 col-sm-6 col-xl-4">
+                   <div class=" contact_bord icon contact text-center icon">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                   </div>
+                  </div>
+                  <div class="col-lg-8 col-md-7 col-sm-6 col-xl-8">
+                    <h6 class=" email mt-lg-4 mt-xl-4 mt-sm-3">marolikarayush123@gmail.com</h6>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="card contact__form text-white mt-3">
+                <div class=" card-body contact__body">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                   <div class=" contact_bord text-center icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                   </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 ">
+                    <div class="col-lg-8 col-md-7 col-sm-6 col-xl-8">
+                      <h6 class=" email mt-lg-4 mt-xl-4 mt-sm-3">07841071118</h6>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- second Contact Form -->
+        
+            <div class="col-lg-6 col-md-6 col-sm-12" >
+            <form>
+            <label for="Name" class="form-label"></label>
+            <input type="email" class="form-control border-dark" id="Name" placeholder=" First Name" autocomplete="off" required>
+            </form>
+     
+              <div class="mb-1">
+                <label for="Phone" class="form-label"></label>
+                <input type=" number" class="form-control border-dark" id="Phone" placeholder="PhoneNumber" required  autocomplete="off">
+              </div>
+              <div class="mb-1" required >
+                <label for="Email" class="form-label"></label>
+                <input type="email" class="form-control border-dark" id="Email" placeholder="Email"   autocomplete="off">
+              </div>
+              <div class="mb-1">
+                <label for="Textarea1" class="form-label"></label>
+                <textarea class="form-control border-dark" id="Textarea1" rows="3" placeholder="How can we help You?" required  autocomplete="off"></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn1" type="button" onclick="sendEmail()">Send</button>
+              </div>
+            <!-- </form> -->
+            </div>
+           </div>
+          </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+  function sendEmail(){
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "marolikarayush123@gmail.com",
+    Password : "Happy@123",
+    To : 'amarolikar@gmail.com',
+    From : document.getElementById("Email").value,
+    Subject : "New Contact Form Inquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
+
+</script>
+<!-- <script>
+  //   function submit(){
+  //  alert("Hello")
+  }
+</script> -->
+  </body>
+</html>
